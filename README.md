@@ -19,12 +19,10 @@
 ### **3. Geometric and Statistical Analysis**
 - **Centroid** and **bounding circle** calculations for multiple points on a sphere.
 - **Convex hull computations** for clustering and spatial extents.
-- Create **Voronoi diagrams** for resource allocation and coverage analysis.
 - **Cluster points** based on distance thresholds or other metrics.
 
 ### **4. Proximity Analysis**
 - Generate **buffer zones** around points, lines, or polygons.
-- Find **nearest neighbors** or **K-nearest neighbors** for a given point.
 - Perform **distance threshold queries** for proximity-based operations.
 
 ### **5. Visualization**
@@ -33,7 +31,6 @@
 
 ### **6. Advanced Metrics**
 - **Spherical triangle calculations** for navigation.
-- Weighted distances incorporating **terrain difficulty** or **travel speeds**.
 - **Isochrone maps** showing areas reachable within time thresholds.
 
 ---
