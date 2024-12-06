@@ -5,7 +5,7 @@ SphereStats is a Python library designed for advanced geospatial analysis and sp
  Key Features
 
 1. Distance Calculations:
-	Great-circle distance using the Haversine formula.
+	Great-circle distance using the Haversine formula.
 	Point-to-line and point-to-polygon distances for geofencing and proximity analysis.
 	Midpoint calculations for navigation and routing.
    
@@ -91,6 +91,9 @@ Contributions are welcome! If you have suggestions, bug reports, or feature requ
 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+
 
 
 
