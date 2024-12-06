@@ -11,34 +11,51 @@
 - **Point-to-line** and **point-to-polygon distances** for geofencing and proximity analysis.
 - **Midpoint calculations** for navigation and routing.
 
- Calculating Great-Circle Distance
-The great_circle_distance function computes the shortest distance between two points on the surface of a sphere using the Haversine formula.
+Example 1: Distance Calculations
+The calculate_great_circle_distance function computes the shortest distance between two points on a sphere using the Haversine formula.
 Inputs
-point1: Coordinates of the first point as a tuple (latitude, longitude).
-point2: Coordinates of the second point as a tuple (latitude, longitude).
+point1: A tuple (latitude, longitude) for the first point.
+Example: (40.748817, -73.985428) (New York)
+point2: A tuple (latitude, longitude) for the second point.
+Example: (34.052235, -118.243683) (Los Angeles)
 Outputs
-The distance between the two points in kilometers or miles (default: kilometers).
+distance: The great-circle distance between the two points in kilometers.
 
 ### **2. Routing and Network Analysis**
 - Compute the **shortest paths** between points on a sphere.
 - Generate **waypoints** along routes for navigation or migration tracking.
 - Calculate **travel distances** along curved paths, such as roads or flight paths.
 
-Example: Shortest Path Routing
-The compute_shortest_path function calculates the shortest route between two points on a sphere, accounting for the curvature of the Earth.
+Example 2: Routing
+The generate_waypoints function creates waypoints along a great-circle route between two locations.
 Inputs
-start_point: The starting point as a tuple (latitude, longitude).
-end_point: The ending point as a tuple (latitude, longitude).
-num_waypoints (optional): The number of waypoints to generate along the route. Default is 10.
+start_point: A tuple (latitude, longitude) for the starting location.
+Example: (40.748817, -73.985428) (New York)
+end_point: A tuple (latitude, longitude) for the ending location.
+Example: (34.052235, -118.243683) (Los Angeles)
+num_waypoints: An integer specifying the number of intermediate waypoints to generate.
 Outputs
-route: A list of tuples representing waypoints along the shortest path, including the start and end points.
-
+waypoints: A list of tuples representing intermediate points along the route.
 
 
 ### **3. Geometric and Statistical Analysis**
 - **Centroid** and **bounding circle** calculations for multiple points on a sphere.
 - **Convex hull computations** for clustering and spatial extents.
 - **Cluster points** based on distance thresholds or other metrics.
+
+
+Example 3: Geometric and Statistical Analysis
+The calculate_centroid and compute_convex_hull functions analyze geospatial data to find centroids and construct convex hulls for points on a sphere.
+Inputs
+points: A list of tuples representing points as (latitude, longitude).
+Outputs
+Centroid Calculation:
+centroid: The geographical centroid of the points as (latitude, longitude).
+Convex Hull Calculation:
+hull: A list of tuples representing the vertices of the convex hull.
+cartesian_points: Cartesian coordinates of the points for 3D visualization.
+
+
 
 ### **4. Proximity Analysis**
 - Generate **buffer zones** around points, lines, or polygons.
