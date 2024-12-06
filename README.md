@@ -1,38 +1,48 @@
 SphereStats
 
-SphereStats is a Python library designed for advanced geospatial analysis and spherical geometry operations. Whether you're working with geographic data, analyzing navigation routes, or performing spatial statistics, SphereStats provides the tools you need to simplify and streamline workflows.
+SphereStats is a Python library designed for advanced **geospatial analysis** and **spherical geometry operations**. Whether you're working with geographic data, analyzing navigation routes, or performing spatial statistics, SphereStats provides the tools you need to **simplify and streamline workflows**.
 
+---
 
 Key Features
 
 1. Distance Calculations
-Great-circle distances using the Haversine formula.                                                                                                                                 
-                                                                                                                                                                                Point-to-line and point-to-polygon distances for geofencing and proximity analysis.
-Midpoint calculations for navigation and routing.
-2. Routing and Network Analysis
-Compute the shortest paths between points on a sphere.
-Generate waypoints along routes for navigation or migration tracking.
-Calculate travel distances along curved paths, such as roads or flight paths.
-3. Geometric and Statistical Analysis
-Centroid and bounding circle calculations for multiple points on a sphere.
-Convex hull computations for clustering and spatial extents.
-Create Voronoi diagrams for resource allocation and coverage analysis.
-Cluster points based on distance thresholds or other metrics.
-4. Proximity Analysis
-Generate buffer zones around points, lines, or polygons.
-Find nearest neighbors or K-nearest neighbors for a given point.
-Perform distance threshold queries for proximity-based operations.
-5. Visualization
-Render routes, heatmaps, and geometric shapes on various map projections.
-Visualize great-circle arcs and spherical triangles for navigation and celestial mapping.
-6. Advanced Metrics
-Spherical triangle calculations for navigation.
-Weighted distances incorporating terrain difficulty or travel speeds.
-Isochrone maps showing areas reachable within time thresholds.
+- Great-circle distances: using the Haversine formula.
+- Point-to-line** and :point-to-polygon distances** for geofencing and proximity analysis.
+- **Midpoint calculations** for navigation and routing.
 
-Installation
+### **2. Routing and Network Analysis**
+- Compute the **shortest paths** between points on a sphere.
+- Generate **waypoints** along routes for navigation or migration tracking.
+- Calculate **travel distances** along curved paths, such as roads or flight paths.
+
+### **3. Geometric and Statistical Analysis**
+- **Centroid** and **bounding circle** calculations for multiple points on a sphere.
+- **Convex hull computations** for clustering and spatial extents.
+- Create **Voronoi diagrams** for resource allocation and coverage analysis.
+- **Cluster points** based on distance thresholds or other metrics.
+
+### **4. Proximity Analysis**
+- Generate **buffer zones** around points, lines, or polygons.
+- Find **nearest neighbors** or **K-nearest neighbors** for a given point.
+- Perform **distance threshold queries** for proximity-based operations.
+
+### **5. Visualization**
+- Render **routes, heatmaps, and geometric shapes** on various map projections.
+- Visualize **great-circle arcs** and **spherical triangles** for navigation and celestial mapping.
+
+### **6. Advanced Metrics**
+- **Spherical triangle calculations** for navigation.
+- Weighted distances incorporating **terrain difficulty** or **travel speeds**.
+- **Isochrone maps** showing areas reachable within time thresholds.
+
+---
+
+## **Installation**
 
 Install SphereStats using pip:
+
+```bash
 pip install SphereStats
 
 Example Usage
