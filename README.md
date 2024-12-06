@@ -69,10 +69,14 @@ start_point: A tuple (latitude, longitude) for the starting location.
 Example: (40.748817, -73.985428) (New York)
 end_point: A tuple (latitude, longitude) for the ending location.
 Example: (34.052235, -118.243683) (Los Angeles)
-num_waypoints: An integer specifying the number of intermediate waypoints to generate.
-Example: 5
+
 Outputs
 waypoints: A list of tuples representing intermediate points along the route.
+
+
+
+
+
 
 Example Usage
 
