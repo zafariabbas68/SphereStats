@@ -51,18 +51,18 @@ pip install SphereStats
 
 ### **Example 1: Distance Calculations**
 
-The `calculate_great_circle_distance` function computes the shortest distance between two points on a sphere using the **Haversine formula**.
+The `calculate_great_circle_distance` function computes the shortest distance between two points on a sphere using the Haversine formulas.
 
-#### **Inputs**
-- **`point1`**: A tuple `(latitude, longitude)` for the first point.  
-  Example: `(40.748817, -73.985428)` *(New York)*  
-- **`point2`**: A tuple `(latitude, longitude)` for the second point.  
-  Example: `(34.052235, -118.243683)` *(Los Angeles)*  
+ Inputs
+- `point1`: A tuple `(latitude, longitude)` for the first point.  
+  Example: `(40.748817, -73.985428)` *(New York)  
+- `point2`**: A tuple `(latitude, longitude)` for the second point.  
+  Example: `(34.052235, -118.243683)` (Los Angeles) 
 
-#### **Outputs**
-- **`distance`**: The great-circle distance between the two points in kilometers.
+  Outputs
+- `distance`: The great-circle distance between the two points in kilometers.
 
-#### **Code Example**
+  Code Example
 ```python
 from SphereStats.distance_calculations import calculate_great_circle_distance
 
