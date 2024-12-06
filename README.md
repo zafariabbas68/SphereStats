@@ -64,7 +64,6 @@ The `calculate_great_circle_distance` function computes the shortest distance be
 
 
 Example 2: Routing
-The generate_waypoints function creates waypoints along a great-circle route between two locations.
 Inputs
 start_point: A tuple (latitude, longitude) for the starting location.
 Example: (40.748817, -73.985428) (New York)
