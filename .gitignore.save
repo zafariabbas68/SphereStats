@@ -1,0 +1,18 @@
+
+
+
+git add .
+# Ignore DS_Store (Mac-specific system files)
+.DS_Store
+
+# Ignore IDE configuration files (e.g., for JetBrains IntelliJ/PyCharm)
+.idea/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info

@@ -1,0 +1,27 @@
+name: SphereStats
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - scipy
+  - cartopy
+  - pytest
+  - pip
+  - setuptools
+  - wheel
+  - geopandas  # For geospatial data operations
+  - pyproj     # For projections and geodesic operations
+  - shapely    # For geometry operations
+  - pandas     # For data manipulation
+  - lz4-c      # Compression utilities
+  - tornado    # For asynchronous networking
+  - proj       # Projection library, used by pyproj
+  - haversine  # For distance calculations (if used explicitly in your library)
+  - jupyter    # For documentation/testing in notebooks (optional)
+  - pip:
+      - sphinx  # For documentation generation
+      - sphinx_rtd_theme  # For Read the Docs theme in docs
+
