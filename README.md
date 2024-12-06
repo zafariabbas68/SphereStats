@@ -11,10 +11,29 @@
 - **Point-to-line** and **point-to-polygon distances** for geofencing and proximity analysis.
 - **Midpoint calculations** for navigation and routing.
 
+ Calculating Great-Circle Distance
+The great_circle_distance function computes the shortest distance between two points on the surface of a sphere using the Haversine formula.
+Inputs
+point1: Coordinates of the first point as a tuple (latitude, longitude).
+point2: Coordinates of the second point as a tuple (latitude, longitude).
+Outputs
+The distance between the two points in kilometers or miles (default: kilometers).
+
 ### **2. Routing and Network Analysis**
 - Compute the **shortest paths** between points on a sphere.
 - Generate **waypoints** along routes for navigation or migration tracking.
 - Calculate **travel distances** along curved paths, such as roads or flight paths.
+
+Example: Shortest Path Routing
+The compute_shortest_path function calculates the shortest route between two points on a sphere, accounting for the curvature of the Earth.
+Inputs
+start_point: The starting point as a tuple (latitude, longitude).
+end_point: The ending point as a tuple (latitude, longitude).
+num_waypoints (optional): The number of waypoints to generate along the route. Default is 10.
+Outputs
+route: A list of tuples representing waypoints along the shortest path, including the start and end points.
+
+
 
 ### **3. Geometric and Statistical Analysis**
 - **Centroid** and **bounding circle** calculations for multiple points on a sphere.
@@ -28,6 +47,17 @@
 ### **5. Visualization**
 - Render **routes, heatmaps, and geometric shapes** on various map projections.
 - Visualize **great-circle arcs** and **spherical triangles** for navigation and celestial mapping.
+
+
+Example: Visualizing a Convex Hull on a Sphere
+The convex_hull_on_sphere function computes the convex hull of a set of points on a sphere. You can then visualize the result in 3D.
+Inputs
+points: A list of coordinates, where each coordinate is a tuple (latitude, longitude).
+Outputs
+hull: A list of indices representing the convex hull points.
+cartesian_points: The corresponding 3D Cartesian points of the input coordinates.
+
+
 
 ### **6. Advanced Metrics**
 - **Spherical triangle calculations** for navigation.
