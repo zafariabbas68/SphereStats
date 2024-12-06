@@ -47,9 +47,9 @@ Install SphereStats using pip:
 ```bash
 pip install SphereStats
 
-## **Examples of Inputs and Outputs**
+Examples of Inputs and Outputs
 
-### **Example 1: Distance Calculations**
+Example 1: Distance Calculations
 
 The `calculate_great_circle_distance` function computes the shortest distance between two points on a sphere using the Haversine formulas.
 
@@ -62,18 +62,18 @@ The `calculate_great_circle_distance` function computes the shortest distance be
   Outputs
 - `distance`: The great-circle distance between the two points in kilometers.
 
-  Code Example
-```python
-from SphereStats.distance_calculations import calculate_great_circle_distance
 
-# Define the points
-point1 = (40.748817, -73.985428)  # New York
-point2 = (34.052235, -118.243683)  # Los Angeles
-
-# Calculate the distance
-distance = calculate_great_circle_distance(point1, point2)
-print(f"The distance between New York and Los Angeles is {distance:.2f} km.")
-
+Example 2: Routing
+The generate_waypoints function creates waypoints along a great-circle route between two locations.
+Inputs
+start_point: A tuple (latitude, longitude) for the starting location.
+Example: (40.748817, -73.985428) (New York)
+end_point: A tuple (latitude, longitude) for the ending location.
+Example: (34.052235, -118.243683) (Los Angeles)
+num_waypoints: An integer specifying the number of intermediate waypoints to generate.
+Example: 5
+Outputs
+waypoints: A list of tuples representing intermediate points along the route.
 
 Example Usage
 
