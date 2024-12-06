@@ -1,14 +1,14 @@
-SphereStats
+# **SphereStats**
 
-SphereStats is a Python library designed for advanced **geospatial analysis** and **spherical geometry operations**. Whether you're working with geographic data, analyzing navigation routes, or performing spatial statistics, SphereStats provides the tools you need to **simplify and streamline workflows**.
+**SphereStats** is a Python library designed for advanced **geospatial analysis** and **spherical geometry operations**. Whether you're working with geographic data, analyzing navigation routes, or performing spatial statistics, SphereStats provides the tools you need to **simplify and streamline workflows**.
 
 ---
 
-Key Features
+## **Key Features**
 
-1. Distance Calculations
-- Great-circle distances: using the Haversine formula.
-- Point-to-line** and :point-to-polygon distances** for geofencing and proximity analysis.
+### **1. Distance Calculations**
+- **Great-circle distances** using the Haversine formula.
+- **Point-to-line** and **point-to-polygon distances** for geofencing and proximity analysis.
 - **Midpoint calculations** for navigation and routing.
 
 ### **2. Routing and Network Analysis**
@@ -45,6 +45,7 @@ Install SphereStats using pip:
 ```bash
 pip install SphereStats
 
+
 Example Usage
 
 from SphereStats.convex_hull import convex_hull_on_sphere, plot_convex_hull_3d
@@ -63,6 +64,7 @@ hull, cartesian_points = convex_hull_on_sphere(points)
 
 # Visualize in 3D
 plot_convex_hull_3d(hull, cartesian_points)
+
 
 
 Applications
