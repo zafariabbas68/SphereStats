@@ -74,6 +74,13 @@ Outputs
 waypoints: A list of tuples representing intermediate points along the route.
 
 
+Visualizing a Convex Hull on a Sphere
+
+Inputs
+points: A list of coordinates, where each coordinate is a tuple (latitude, longitude).
+Outputs
+hull: A list of indices representing the convex hull points.
+cartesian_points: The corresponding 3D Cartesian points of the input coordinates.
 
 
 
