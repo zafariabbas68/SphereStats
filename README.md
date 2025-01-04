@@ -109,13 +109,11 @@ This project visualizes the Great Circle Path, the shortest route between two ci
 ![Great Circle Path](Great_circle_path.png)
 
 
-Certainly! Here's the entire `README.md` content in one code block:
 
-```markdown
 ---
 ## **Installation**
 
-To install **SphereStats**, use **pip**:
+To install **SphereStats**, use pip:
 
 ```bash
 pip install SphereStats
@@ -241,13 +239,7 @@ For any inquiries or issues, please contact:
 
 - **Author**: Ghulam Abbas Zafari
 - **Email**: ghulamabbas.zafari@mail.polimi.it
-```
-
-
-
-
-
-
+  
 
 
 
