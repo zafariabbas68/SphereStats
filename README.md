@@ -45,6 +45,23 @@ Below is an example of isochrones for New York:
 ![New York Isochrones](newyork_isochrones.gif)
 
 
+
+
+This example demonstrates how to calculate the shortest path between cities using Dijkstra's algorithm and visualize the network of cities on a 2D map. The cities are represented by their geodesic distances, and the shortest path between two cities (New York and Paris) is highlighted.
+
+### Code Explanation
+1. **Geodesic Distance Calculation**: The script uses the Haversine formula to calculate the great-circle distance between cities on the Earth's surface based on their latitude and longitude.
+   
+2. **Dijkstra's Algorithm**: This algorithm is used to find the shortest path in a weighted graph of cities. The cities are connected to each other based on their calculated geodesic distances.
+
+3. **Visualization**: The cities are plotted on a map, and the shortest path between New York and Paris is highlighted in red.
+
+### Example of Plot
+Here is the plot showing the network of cities and the shortest path from **New York** to **Paris**:
+
+![Shortest Path Plot](shortest_path_plot.png)
+
+
 ---
 
 ## **Installation**
