@@ -83,6 +83,35 @@ The plot showcases:
 ![Flight Travel Times](flight_travel_times.png)
 
 
+### Great Circle Path Visualization
+
+#### Overview
+
+This project visualizes the Great Circle Path, the shortest route between two cities on a 3D sphere (representing Earth). The path is calculated using the Haversine formula, which determines the shortest distance between two points on a sphere.
+
+#### Code Explanation
+
+- **`to_cartesian(lat, lon)`**: Converts latitude and longitude to Cartesian coordinates for 3D plotting.
+- **`haversine(lat1, lon1, lat2, lon2)`**: Calculates the great-circle distance between two points on Earth using the Haversine formula.
+- **`plot_great_circle_with_stats(lat1, lon1, lat2, lon2)`**: Plots the 3D sphere, the great-circle path, and the cities' locations, and shows the calculated distance.
+
+#### Example Coordinates
+
+- **Warsaw**: (52.2296756, 21.0122287)
+- **Rome**: (41.8919300, 12.5113300)
+
+#### Plot Description
+
+- The plot shows a 3D sphere with the cities marked by dots.
+- A red line represents the Great Circle Path.
+- The distance between the two cities is displayed outside the plot.
+
+![Great Circle Path](Great_circle_path.png)
+
+
+
+
+
 
 ---
 
