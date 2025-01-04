@@ -109,10 +109,9 @@ This project visualizes the Great Circle Path, the shortest route between two ci
 ![Great Circle Path](Great_circle_path.png)
 
 
+Certainly! Here's the entire `README.md` content in one code block:
 
-
-
-
+```markdown
 ---
 ## **Installation**
 
@@ -120,47 +119,58 @@ To install **SphereStats**, use **pip**:
 
 ```bash
 pip install SphereStats
+```
 
-Examples of Inputs and Outputs
+### **Examples of Inputs and Outputs**
 
-Example 1: Distance Calculations
-The calculate_great_circle_distance function computes the shortest distance between two points on a sphere using the Haversine formula.
+#### **Example 1: Distance Calculations**
 
-Inputs:
+The `calculate_great_circle_distance` function computes the shortest distance between two points on a sphere using the **Haversine formula**.
 
-point1: A tuple (latitude, longitude) for the first point.
-Example: (40.748817, -73.985428) (New York)
-point2: A tuple (latitude, longitude) for the second point.
-Example: (34.052235, -118.243683) (Los Angeles)
-Outputs:
+**Inputs:**
 
-distance: The great-circle distance between the two points in kilometers.
+- `point1`: A tuple `(latitude, longitude)` for the first point.  
+  Example: `(40.748817, -73.985428)` *(New York)*
+- `point2`: A tuple `(latitude, longitude)` for the second point.  
+  Example: `(34.052235, -118.243683)` *(Los Angeles)*
 
+**Outputs:**
 
-Example 2: Routing
-Inputs:
+- `distance`: The great-circle distance between the two points in kilometers.
 
-start_point: A tuple (latitude, longitude) for the starting location.
-Example: (40.748817, -73.985428) (New York)
-end_point: A tuple (latitude, longitude) for the ending location.
-Example: (34.052235, -118.243683) (Los Angeles)
-Outputs:
+---
 
-waypoints: A list of tuples representing intermediate points along the route.
+#### **Example 2: Routing**
 
+**Inputs:**
 
-Visualizing a Convex Hull on a Sphere
-Inputs:
+- `start_point`: A tuple `(latitude, longitude)` for the starting location.  
+  Example: `(40.748817, -73.985428)` *(New York)*
+- `end_point`: A tuple `(latitude, longitude)` for the ending location.  
+  Example: `(34.052235, -118.243683)` *(Los Angeles)*
 
-points: A list of coordinates, where each coordinate is a tuple (latitude, longitude).
-Outputs:
+**Outputs:**
 
-hull: A list of indices representing the convex hull points.
-cartesian_points: The corresponding 3D Cartesian points of the input coordinates.
+- `waypoints`: A list of tuples representing intermediate points along the route.
 
+---
 
-Example Usage
+#### **Visualizing a Convex Hull on a Sphere**
 
+**Inputs:**
+
+- `points`: A list of coordinates, where each coordinate is a tuple `(latitude, longitude)`.
+
+**Outputs:**
+
+- `hull`: A list of indices representing the convex hull points.
+- `cartesian_points`: The corresponding 3D Cartesian points of the input coordinates.
+
+---
+
+### **Example Usage**
+
+```python
 from SphereStats.convex_hull import convex_hull_on_sphere, plot_convex_hull_3d
 
 # Define latitude and longitude points
@@ -177,47 +187,67 @@ hull, cartesian_points = convex_hull_on_sphere(points)
 
 # Visualize in 3D
 plot_convex_hull_3d(hull, cartesian_points)
+```
 
+---
 
-Applications
+### **Applications**
 
-Navigation and Routing:
-Calculate optimal routes and travel paths.
-Analyze waypoint-based navigation for flights and shipping.
-Geospatial Analysis:
-Assess proximity to protected areas, hazard zones, or geofences.
-Perform clustering and resource allocation using spherical statistics.
-Data Visualization:
-Generate intuitive maps and spherical projections for spatial data.
-Urban Planning and Infrastructure:
-Plan routes, assess coverage zones, and analyze accessibility.
+- **Navigation and Routing**:
+  - Calculate optimal routes and travel paths.
+  - Analyze waypoint-based navigation for flights and shipping.
 
+- **Geospatial Analysis**:
+  - Assess proximity to protected areas, hazard zones, or geofences.
+  - Perform clustering and resource allocation using spherical statistics.
 
-Requirements
+- **Data Visualization**:
+  - Generate intuitive maps and spherical projections for spatial data.
 
-Python >= 3.8
-Required packages:
+- **Urban Planning and Infrastructure**:
+  - Plan routes, assess coverage zones, and analyze accessibility.
 
-numpy
-scipy
-matplotlib
-cartopy
-pyproj
+---
 
+### **Requirements**
 
-Contributing
+- Python >= 3.8
+
+**Required packages:**
+
+- numpy
+- scipy
+- matplotlib
+- cartopy
+- pyproj
+
+---
+
+### **Contributing**
 
 Contributions are welcome! If you have suggestions, bug reports, or feature requests, feel free to submit an issue or pull request on the GitHub repository.
 
+---
 
-License
+### **License**
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the **MIT License**. See the LICENSE file for details.
 
-Contact
+---
+
+### **Contact**
 
 For any inquiries or issues, please contact:
 
-Author: Ghulam Abbas Zafari
-Email: ghulamabbas.zafari@mail.polimi.it
+- **Author**: Ghulam Abbas Zafari
+- **Email**: ghulamabbas.zafari@mail.polimi.it
+```
+
+
+
+
+
+
+
+
 
