@@ -116,10 +116,11 @@ This project visualizes the Great Circle Path, the shortest route between two ci
 ---
 ## **Installation**
 
-To install SphereStats, use pip:
+To install **SphereStats**, use **pip**:
 
 ```bash
 pip install SphereStats
+
 Examples of Inputs and Outputs
 
 Example 1: Distance Calculations
@@ -134,6 +135,8 @@ Example: (34.052235, -118.243683) (Los Angeles)
 Outputs:
 
 distance: The great-circle distance between the two points in kilometers.
+
+
 Example 2: Routing
 Inputs:
 
@@ -144,6 +147,8 @@ Example: (34.052235, -118.243683) (Los Angeles)
 Outputs:
 
 waypoints: A list of tuples representing intermediate points along the route.
+
+
 Visualizing a Convex Hull on a Sphere
 Inputs:
 
@@ -152,6 +157,8 @@ Outputs:
 
 hull: A list of indices representing the convex hull points.
 cartesian_points: The corresponding 3D Cartesian points of the input coordinates.
+
+
 Example Usage
 
 from SphereStats.convex_hull import convex_hull_on_sphere, plot_convex_hull_3d
@@ -170,6 +177,9 @@ hull, cartesian_points = convex_hull_on_sphere(points)
 
 # Visualize in 3D
 plot_convex_hull_3d(hull, cartesian_points)
+
+
+
 Applications
 
 Navigation and Routing:
@@ -182,6 +192,9 @@ Data Visualization:
 Generate intuitive maps and spherical projections for spatial data.
 Urban Planning and Infrastructure:
 Plan routes, assess coverage zones, and analyze accessibility.
+
+
+
 Requirements
 
 Python >= 3.8
@@ -192,9 +205,14 @@ scipy
 matplotlib
 cartopy
 pyproj
+
+
+
 Contributing
 
 Contributions are welcome! If you have suggestions, bug reports, or feature requests, feel free to submit an issue or pull request on the GitHub repository.
+
+
 
 License
 
