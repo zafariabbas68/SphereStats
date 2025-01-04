@@ -38,6 +38,13 @@
 - **Spherical triangle calculations** for navigation.
 - **Isochrone maps** showing areas reachable within time thresholds.
 
+
+### Visualizing Isochrones for New York
+Below is an example of isochrones for New York:
+
+![New York Isochrones](newyork_isochrones.gif)
+
+
 ---
 
 ## **Installation**
