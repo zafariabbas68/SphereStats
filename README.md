@@ -80,6 +80,8 @@ The plot showcases:
 - City locations marked with blue dots.
 - Red dashed lines representing the shortest flight paths (great-circle routes).
 - Travel times between cities, annotated along the routes.
+![Flight Travel Times](flight_travel_times.png)
+
 
 
 ---
