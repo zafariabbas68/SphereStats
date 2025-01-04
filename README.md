@@ -179,7 +179,6 @@ hull, cartesian_points = convex_hull_on_sphere(points)
 plot_convex_hull_3d(hull, cartesian_points)
 
 
-
 Applications
 
 Navigation and Routing:
@@ -194,7 +193,6 @@ Urban Planning and Infrastructure:
 Plan routes, assess coverage zones, and analyze accessibility.
 
 
-
 Requirements
 
 Python >= 3.8
@@ -207,14 +205,19 @@ cartopy
 pyproj
 
 
-
 Contributing
 
 Contributions are welcome! If you have suggestions, bug reports, or feature requests, feel free to submit an issue or pull request on the GitHub repository.
 
 
-
 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+
+For any inquiries or issues, please contact:
+
+Author: Ghulam Abbas Zafari
+Email: ghulamabbas.zafari@mail.polimi.it
 
