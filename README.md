@@ -62,6 +62,26 @@ Here is the plot showing the network of cities and the shortest path from **New 
 ![Shortest Path Plot](shortest_path_plot.png)
 
 
+
+# Flight Travel Times Between Major Cities
+
+This project calculates and visualizes the flight travel times between several major cities across the globe using great-circle distances (haversine formula). The average commercial flight speed is assumed to be 900 km/h.
+
+## Key Components
+
+- **Haversine Formula**: Calculates the great-circle distance between two latitude/longitude points on the Earth's surface.
+- **City Coordinates**: Defines the geographical coordinates for selected major cities (New York, London, Dubai, Tokyo, Sydney).
+- **Travel Data**: Computes distances and estimated travel times between specified pairs of cities.
+- **Map Visualization**: Uses `Matplotlib` and `Cartopy` to plot a world map, marking cities and drawing great-circle routes between them. The plot annotates each route with the corresponding travel time.
+
+## Plot
+
+The plot showcases:
+- City locations marked with blue dots.
+- Red dashed lines representing the shortest flight paths (great-circle routes).
+- Travel times between cities, annotated along the routes.
+
+
 ---
 
 ## **Installation**
