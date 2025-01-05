@@ -45,6 +45,22 @@ Below is an example of isochrones for New York:
 ![New York Isochrones](newyork_isochrones.gif)
 
 
+### Isochrones Plot with OpenStreetMap Background
+
+#### Overview
+
+This code calculates **isochrones** (areas reachable within specific time thresholds) from New York City. It uses the **Haversine formula** for distance calculation and displays the result on a map using **OpenStreetMap** as the background.
+
+#### Code Explanation
+
+- **`haversine_distance()`**: Calculates the great-circle distance between two geographic points.
+- **Isochrones**: The script calculates areas reachable within **1 hour**, **2 hours**, and **3 hours** from the central location (New York City).
+- **GeoPandas**: Used to handle isochrone polygons and visualize them.
+- **Cartopy**: Provides the OpenStreetMap background for better geographical context.
+- **Output**: A **PNG image** visualizing the isochrones with a map.
+
+![Isochrones Plot with OpenStreetMap](isochrones_plot_with_osm_map.png)
+
 
 
 This example demonstrates how to calculate the shortest path between cities using Dijkstra's algorithm and visualize the network of cities on a 2D map. The cities are represented by their geodesic distances, and the shortest path between two cities (New York and Paris) is highlighted.
