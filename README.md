@@ -63,6 +63,7 @@ This code calculates **isochrones** (areas reachable within specific time thresh
 
 
 
+
 This example demonstrates how to calculate the shortest path between cities using Dijkstra's algorithm and visualize the network of cities on a 2D map. The cities are represented by their geodesic distances, and the shortest path between two cities (New York and Paris) is highlighted.
 
 ### Code Explanation
