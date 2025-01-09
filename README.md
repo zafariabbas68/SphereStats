@@ -243,6 +243,6 @@ For any inquiries or issues, please contact:
 - **Email**: ghulamabbas.zafari@mail.polimi.it
 ```
 
-Now, you can simply copy everything from above and paste it into your `README.md` file. The formatting will be preserved in GitHub and other markdown renderers.
+
 
 
