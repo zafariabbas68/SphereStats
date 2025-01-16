@@ -43,6 +43,7 @@
 Below is an example of isochrones for New York:
 
 ![New York Isochrones](newyork_isochrones.gif)
+![Kabul isochrone](kabul_isochrones.gif)
 
 
 
